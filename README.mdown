@@ -10,7 +10,7 @@ Tested only in 1.4 versions
 
 ## Usage
 
-       /terms/term-slug1,term-slug2, term-slug3
+       /terms/term-slug1,term-slug2,term-slug3
 
 or direct
 
@@ -21,3 +21,13 @@ or direct
        
  * customize routing in Multiterm/Config/routes.php
  * change url terms delimiter in Multiterm/Config/bootstrap.php
+
+### Views
+
+Override default view in your theme folder
+       
+       /View/Themed/Mytheme/Plugin/Multiterm/Multiterms/view.ctp
+
+or fallback by type also
+
+       /View/Themed/Mytheme/Plugin/Multiterm/Multiterms/view_blog.ctp
