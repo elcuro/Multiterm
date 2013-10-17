@@ -1,0 +1,11 @@
+{
+	"name": "Multiterm",
+	"description": "Show nodes for multiple terms",
+
+	"author": "Juraj Jancuska",
+	"authorEmail": "jjancuska@gmail.com",
+	"authorUrl": "",
+
+	"dependencies": {
+	}
+}

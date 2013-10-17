@@ -1,0 +1,23 @@
+#Croogo Multiterm plugin for Croogo 1.4
+
+Show nodes for multiple terms on one page.
+Tested only in 1.4 versions
+
+
+## Installation
+ * download and copy this plugin to app/Plugin/Multiterm
+ * activate plugin in administration Extesions -> Plugins
+
+## Usage
+
+       /terms/term-slug1,term-slug2, term-slug3
+
+or direct
+
+       /muliterm/multiterms/view/slugs:term1-slug,term2-slug/type:ndoe
+
+
+### Customization
+       
+ * customize routing in Multiterm/Config/routes.php
+ * change url terms delimiter in Multiterm/Config/bootstrap.php
