@@ -82,7 +82,7 @@ class MultitermsController extends MultitermAppController {
 			$nodes = $this->paginate('Node');
 		}
 
-		$this->set(compact('nodes'));
+		$this->set(compact('nodes', 'terms'));
 		$this->set('title_for_layout', __('Multiple terms'));
 
 		if (isset($this->request->params['named']['type'])) {
